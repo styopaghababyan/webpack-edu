@@ -1,12 +1,22 @@
 /*!***********************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./src/List/styles.css ***!
   \***********************************************************************/
+ul {
+  display: inline-block;
+}
 li {
   font-family: fantasy, serif;
   font-size: 23px;
   list-style: circle;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+
+li:last-child {
+  margin-bottom: 0;
 }
 
 .active {
   color: #ccc;
 }
+
