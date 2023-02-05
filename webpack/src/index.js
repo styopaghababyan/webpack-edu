@@ -1,3 +1,4 @@
 import {List} from './List/List.js'
 const app = new List();
-app.render("Angular", "React", "Vue", "Python");
+let listItems = ["Angular", "React", "Vue", "Next", "Python"];
+app.render(...listItems);
